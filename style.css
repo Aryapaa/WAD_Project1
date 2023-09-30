@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: #393E46;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 4px 0 black;
+}
+
+header * {
+    display: inline;
+    padding: 0;
+}
+
+header li{
+    margin: 20px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+div{
+    display: block;
+}
+
+#homepage{
+    height: 100%;
+    width: 100%;
+}
+
+#homepage .borderhome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #222831;
+    padding: 10px;
+}
+
+.borderhome span{
+   font-size: 50px;
+}
+
+#teampage{
+    height: 100%;
+    width: 100%;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxfoto img{
+    width: 300px;
+}
+
+.boxname{
+    margin-top: 20px;
+}
+
+.boxname .name{
+    color: #EEEEEE;
+    font-size: 25px;
+}
+
+.boxname .status{
+    color: #EEEEEE;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+#aboutpage{
+    height: 100%;
+    width: 100%;
+}
+
+#aboutpage .left-content{
+    float: left;
+    background-color: #00ADB5;
+    width: 30%;
+    height: 100%;
+}
+
+.left-content .upperboxabout{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 40px;
+    color: #EEEEEE;
+}
+
+.left-content .boxabout{
+    background-color: #EEEEEE;
+    width: 85%;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 10px 10px 5px #393E46;
+    border-radius: 10px;
+    line-height: 40px;
+    padding-top: 1;
+}
+
+.boxabout ul{
+    list-style: none;
+    
+}
