@@ -107,14 +107,21 @@ div{
     height: 100%;
 }
 
-.left-content .upperboxabout{
-    margin-top: 100px;
+.heading{
     margin-left: 30px;
     font-size: 40px;
     color: #EEEEEE;
 }
 
-.left-content .boxabout{
+.top{
+    margin-top: 100px;
+}
+
+.bot{
+    margin-top: 50px;
+}
+
+.left-content .box{
     background-color: #EEEEEE;
     width: 85%;
     height: 300px;
@@ -125,7 +132,11 @@ div{
     padding-top: 1;
 }
 
-.boxabout ul{
+.box ul{
     list-style: none;
     
+}
+
+.box p{
+    padding-left: 40px;
 }
