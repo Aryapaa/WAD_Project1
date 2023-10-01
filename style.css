@@ -10,30 +10,22 @@ body{
     height: 100%;
 }
 
-header{
-    background-color: #393E46;
+.page-header{
+    background-color: #00ADB5;
     position: fixed;
+    overflow: hidden;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     height: 80px;
-    display: flex;
-    align-items: center;
-    box-shadow: 0 0 4px 0 black;
 }
 
-header * {
+.page-header a{
     display: inline;
-    padding: 0;
-}
-
-header li{
+    text-align: center;
     margin: 20px;
-}
-
-header li a{
-    color: white;
+    padding: 0;
     text-decoration: none;
+    color: #EEEEEE;
 }
 
 nav{
@@ -43,26 +35,23 @@ nav{
     transform: translate(-50%, -50%); 
 }
 
-div{
-    display: block;
-}
-
 #homepage{
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #homepage .borderhome{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border: 2px solid #222831;
     padding: 10px;
 }
 
 .borderhome span{
    font-size: 50px;
+   cursor: default  ;
 }
 
 #teampage{
@@ -102,7 +91,7 @@ div{
 
 #aboutpage .left-content{
     float: left;
-    background-color: #00ADB5;
+    background-color: #393E46;
     width: 30%;
     height: 100%;
 }
@@ -126,7 +115,6 @@ div{
     width: 85%;
     height: 300px;
     margin: 30px;
-    box-shadow: 10px 10px 5px #393E46;
     border-radius: 10px;
     line-height: 40px;
     padding-top: 1;
@@ -139,4 +127,42 @@ div{
 
 .box p{
     padding-left: 40px;
+}
+
+#aboutpage .right-content{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+}
+
+.heading-right{
+    font-size: 40px;
+    color: #393E46;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.riwayat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table, th, td{
+    border: 1px solid #222831;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th{
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
 }
