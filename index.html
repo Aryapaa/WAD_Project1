@@ -4,68 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewh6ort" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
-<body>
-    <header class="page-header">
-        <nav>
-            <a href="#homepage">Home</a>
-            <a href="#teampage">Team</a>
-            <a href="#aboutpage">About</a>
+<body style="margin: 0; background-color: #EEEEEE; height: 100%; font-family: 'Poppins', sans-serif;">
+    <header class="page-header" style="background-color: #00ADB5; position: fixed; overflow: hidden; top: 0; width: 100%; height: 80px;">
+        <nav style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); ">
+            <div style="text-align: center; margin: 20px; padding: 0;">
+                <a style="margin: 20px; color: #EEEEEE; text-decoration: none;" href="#homepage">Home</a>
+                <a style="margin: 20px; color: #EEEEEE; text-decoration: none;" href="#teampage">Team</a>
+                <a style="margin: 20px; color: #EEEEEE; text-decoration: none;" href="#aboutpage">About</a>
+            </div>
         </nav>
     </header>
-    <div id="homepage">
-        <div class="borderhome">
-            <span>Hello World!</span>
+    <div id="homepage" style="height: 100%; width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <div class="borderhome" style="border: 2px solid #222831; padding: 10px;">
+            <span style="font-size: 50px; cursor: default;">Hello World!</span>
         </div>
     </div>
-    <div id="teampage">
+    <div id="teampage" style="height: 100%; width: 100%; background-color: #222831; display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <div class="boxfoto">
-            <img src="lih.png" alt="">
+            <img src="lih.png" alt="" style="width: 300px;">
         </div>
-        <div class="boxname">
-            <div class="name">Arya Putra Adyartama</div>
-            <div class="status">Junior Programmer</div>
+        <div class="boxname" style="margin-top: 20px;">
+            <div class="name" style="color: #EEEEEE; font-size: 25px;">Arya Putra Adyartama</div>
+            <div class="status" style="color: #EEEEEE; font-size: 15px; margin-top: 10px;">Junior Programmer</div>
         </div>
     </div>
-    <div id="aboutpage">
-        <div class="left-content">
-            <div class="heading top">About</div>
-            <div class="box">
-                <ul>
+    <div id="aboutpage" style="height: 100%; width: 100%;">
+        <div class="left-content" style="float: left; background-color: #393E46; width: 30%; height: 100%;">
+            <div class="headingtop" style="margin-top: 100px; margin-left: 30px; font-size: 40px; color: #EEEEEE;">About</div>
+            <div class="box" style="background-color: #EEEEEE; width: 85%; height: 300px; margin: 30px; border-radius: 10px; line-height: 40px; padding-top: 1;">
+                <ul style="list-style: none;">
                     <li><b>Nama</b> <br> Arya Putra Adyartama</li>
                     <li><b>Tempat, tanggal lahir</b> <br> Magetan, ?? Maret 2003</li>
                     <li><b>Email</b> <br> aryaputraa****@gmail.com</li>
                 </ul>
             </div>
-            <div class="heading bot">Description</div>
-            <div class="box">
-                <p>Arya merupakan seorang yang suka dengan hal-hal yang membingungkan seperti dirinya sendiri.</p>
+            <div class="headingbot" style="margin-top: 50px; margin-left: 30px; font-size: 40px; color: #EEEEEE;">Description</div>
+            <div class="box"  style="background-color: #EEEEEE; width: 85%; height: 300px; margin: 30px; border-radius: 10px; line-height: 40px; padding-top: 1;">
+                <p style="padding-left: 40px;">Arya merupakan seorang yang suka dengan hal-hal yang membingungkan seperti dirinya sendiri.</p>
             </div>
         </div>
-        <div class="right-content">
-            <div class="heading-right">Riwayat Pendidikan</div>
-            <div class="riwayat">
-                <table>
-                    <tr>
-                        <th>Pendidikan</th>
-                        <th>Tahun</th>
+        <div class="right-content" style="background-color: #EEEEEE; width: 100%; height: 100%;">
+            <div class="heading-right" style="font-size: 40px; color: #393E46; text-align: center; padding-top: 200px; padding-bottom: 100px;">Riwayat Pendidikan</div>
+            <div class="riwayat" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <table style="width: 50%;border-collapse: collapse; text-align: center; vertical-align: middle;">
+                    <tr style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">
+                        <th style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">Pendidikan</th>
+                        <th style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">Tahun</th>
                     </tr>
-                    <tr>
-                        <td>Telkom University</td>
-                        <td>2021 - Sekarang</td>
+                    <tr style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">Telkom University</td>
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">2021 - Sekarang</td>
                     </tr>
-                    <tr>
-                        <td>SMK Telkom Malang</td>
-                        <td>2018 - 2021</td>
+                    <tr style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">SMK Telkom Malang</td>
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">2018 - 2021</td>
                     </tr>
-                    <tr>
-                        <td>SMPN 1 Magetan</td>
-                        <td>???? - ????</td>
+                    <tr style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">SMPN 1 Magetan</td>
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">???? - ????</td>
                     </tr>
-                    <tr>
-                        <td>SD Muhammadiyah 1 Magetan</td>
-                        <td>???? - ????</td>
+                    <tr style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">SD Muhammadiyah 1 Magetan</td>
+                        <td style="border: 1px solid #222831; padding: 15px; text-align: center; vertical-align: middle;">???? - ????</td>
                     </tr>
                 </table>
             </div>
